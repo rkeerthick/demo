@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Deluxe Hotel</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700"
@@ -14,7 +16,6 @@
       href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
@@ -23,7 +24,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
 
-    <!-- <link rel="stylesheet" href="css/aos.css" /> -->
+    <link rel="stylesheet" href="css/aos.css" />
 
     <link rel="stylesheet" href="css/ionicons.min.css" />
 
@@ -32,61 +33,125 @@
 
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-    <!-- <link rel="stylesheet" href="css/style2.css" /> -->
     <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-      <ul class="nav nav-top justify-content-center">  
-        <li class="nav-item">
-          <a class="nav-link nav-primary nav-home active" href="index.html">Home</a>
-        </li>
-      </ul>
-    
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light"
+      id="ftco-navbar"
+    >
+      <div class="container h-100 d-flex align-items-center justify-content-center">
+        <a class="navbar-brand " href="index.html" style="">Deluxe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <!--  <span class="oi oi-menu"></span> Menu
+        </button>
 
-    <div class="containers center">
-      <div class="left">
-        <img class="center" src="images/temp.jpg" alt="" />
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="rooms.html" class="nav-link">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a href="restaurant.html" class="nav-link">Restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">Login</a>
+            </li>
+          </ul>
+        </div> -->
       </div>
-      <div class="right">
-        <form action="" method="post">
-          <div class="con-center">
-            <h1>Login</h1>
-            <div class="user_id">
-              <label for="">User ID</label>
-              <input class="center" type="text" name="" id="" />
-            </div>
+    </nav>
+    <!-- END nav -->
 
-            <div class="user_id">
-              <label for="">Password</label>
-              <input class="center" type="text" name="" id="" />
+    <section class="home-slider owl-carousel">
+      <div
+        class="slider-item text-center"
+        style="background-image: url(images/bg_2.jpg)"
+      >
+        <div class="mid-box ">
+          <!-- <label style="font-size: 32px; font-weight: bold; color: white;">Hello</label>>
+          <input class="data" type="text" name="" id=""> -->
+          <div class="row justify-content-center text-center">
+            <div class="col-md-6 col-lg-4 h-100 d-flex align-items-center justify-content-center">
+            <div class="login-wrap p-0 ">
+            <h3 class="mb-4 text-center">Have an account?</h3>
+            <form action="#" class="signin-form">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Username" required>
             </div>
-            <div class="user_id">
-              <input
-                class="center btn"
-                type="submit"
-                value="Login"
-                name=""
-                id=""
-              /><a href="index.html"></a>
-              <!-- <input class="center text-center btn-primary" type="submit" value="">Login -->
-              <!-- <button type="submit" class="btn btn-primary btn-lg ">Login</button> -->
+            <div class="form-group">
+            <input id="password-field" type="password" class="form-control" placeholder="Password" required>
+            <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
             </div>
-            <div class="forgot">
-              <label for=""
-                >Don't Remember Password?
-                <a href="signup.html">Forgot Password</a></label
-              >
+            <div class="form-group">
+            <button type="submit" class="form-control btn btn-primary submit px-3">Login</button>
             </div>
-            <div class="forgot">
-              <label for=""
-                >Don't Have a Account?
-                <a href="signup.html">Create a Account</a></label
-              >
+            <div class="h-100 d-flex align-items-center justify-content-center">
+              <div class="w-50 text-md-left">
+                <a class="transfer-link" href="signup.html">Sign Up</a>
+                </div>
+            <div class="text-md">
+            <a href="signup.html" class="transfer-link"">Forgot Password?!!</a>
             </div>
-          </div>
-        </form>
+            </div>
+            </form>
+            <!-- <p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p>
+            <div class="social d-flex text-center">
+            <a href="#" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span> Facebook</a>
+            <a href="#" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span> Twitter</a>
+            </div> -->
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
       </div>
+    </section>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
     </div>
 
     <script src="js/jquery.min.js"></script>
